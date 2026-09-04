@@ -1,0 +1,15 @@
+{
+  "name": "agent-deck",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AgentDeck unified desktop shell",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "pnpm --filter @agent-deck/desktop dev",
+    "build": "pnpm -r run build",
+    "typecheck": "pnpm -r run typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
