@@ -5,3 +5,13 @@ out
 *.log
 .vite
 release
+notes/
+.tools/
+*.tsbuildinfo
+.dsh-home/
+.dsh-smoke-workspace/
+scripts/node_modules/
+.env
+.env.*
+**/.env*
+!.env.example

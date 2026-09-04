@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@agent-deck/adapters-contract": "workspace:*",
+    "@agent-deck/adapters-dsh": "workspace:*",
     "@agent-deck/adapters-fake": "workspace:*",
     "@agent-deck/core": "workspace:*",
     "@agent-deck/orchestration": "workspace:*",

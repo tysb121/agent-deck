@@ -18,3 +18,7 @@ pnpm dev
 ## 说明
 
 渲染层为 Vue 3 + TypeScript；三区壳手写，通用控件用 Naive UI。
+
+## 本地密钥
+
+DeepSeek dsh 从项目根目录 `.env.local` 读取 `DEEPSEEK_API_KEY`（该文件已 gitignore，勿提交）。
