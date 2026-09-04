@@ -1,0 +1,31 @@
+{
+  "name": "@agent-deck/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AgentDeck desktop shell",
+  "main": "./out/main/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "typecheck": "vue-tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@agent-deck/adapters-contract": "workspace:*",
+    "@agent-deck/adapters-fake": "workspace:*",
+    "@agent-deck/core": "workspace:*",
+    "@agent-deck/orchestration": "workspace:*",
+    "naive-ui": "^2.45.3",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "electron": "^33.3.1",
+    "electron-vite": "^2.3.0",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.11",
+    "vue-tsc": "^2.2.0"
+  }
+}
